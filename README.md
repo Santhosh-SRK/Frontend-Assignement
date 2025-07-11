@@ -1,12 +1,57 @@
-# React + Vite
+#  Frontend Assignment – Card UI with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and responsive React application that displays a list of product items as cards. Users can **add** new cards and **delete** existing ones. Data is fetched and persisted using **MockAPI**. The application is styled for a clean, professional look and is deployed on GitHub Pages.
 
-Currently, two official plugins are available:
+##  Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### [View it on GitHub Pages](https://santhosh-srk.github.io/Frontend-Assignement)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features
+
+-  Fetch and display a list of items from a mock API
+-  Add new items with item name and description
+-  Delete any item (using DELETE API)
+-  Card-based UI with image, name, and description
+-  Live API interactions using `fetch`
+-  Responsive layout and clean styling
+-  Built with modern React (`useState`, `useEffect`)
+-  Git version control with meaningful commit history
+
+---
+
+##  Tech Stack
+
+- **React** (Vite setup for fast builds)
+- **JavaScript (ES6+)**
+- **CSS** (Custom styling)
+- **MockAPI** for REST endpoints
+- **GitHub Pages** for deployment
+
+---
+
+## Project Structure
+
+├── public/
+├── src/
+│   ├── App.jsx          # Main component
+│   ├── App.css          # Component-specific styling
+│   ├── index.css        # Global styles
+│   └── main.jsx         # Entry point
+├── package.json
+├── vite.config.js
+└── README.md
+Installation & Running Locally
+# 1. Clone the repo
+git clone https://github.com/Santhosh-SRK/Frontend-Assignement.git
+
+# 2. Navigate to the project directory
+cd Frontend-Assignement
+
+# 3. Install dependencies
+npm install
+
+# 4. Start development server
+npm run dev
+
